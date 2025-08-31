@@ -55,7 +55,7 @@
   </style>
 </head>
 <body>
-  <!-- Replace "logo.png" with the correct path to your logo in GitHub -->
+  <!-- Replace "logo.png" with the filename and exact path of your logo in the repo -->
   <img src="logo.png" alt="JoViCo Logo" class="logo">
 
   <h1>Welcome to JoViCo, please choose where you would like to go</h1>
