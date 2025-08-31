@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>JoViCo – Choose a link</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      padding: 24px;
+      background: #fafafa;
+      color: #111;
+      text-align: center;
+    }
+    .logo {
+      max-width: 180px;
+      margin: 0 auto 16px;
+      display: block;
+    }
+    h1 {
+      font-size: 20px;
+      margin: 0 0 20px;
+    }
+    a {
+      display: block;
+      margin: 12px auto;
+      padding: 16px 18px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      max-width: 360px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 14px rgba(0,0,0,0.15);
+    }
+    a.etsy {
+      background: #fdf4ff;
+      color: #5b21b6;
+    }
+    a.facebook {
+      background: #eff6ff;
+      color: #1d4ed8;
+    }
+    small {
+      display: block;
+      margin-top: 28px;
+      opacity: 0.65;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Replace "logo.png" with the correct path to your logo in GitHub -->
+  <img src="logo.png" alt="JoViCo Logo" class="logo">
+
+  <h1>Welcome to JoViCo, please choose where you would like to go</h1>
+
+  <a class="etsy" href="https://jovicocreations1.etsy.com" target="_blank" rel="noopener">
+    Visit Etsy
+  </a>
+
+  <a class="facebook" href="https://www.facebook.com/profile.php?id=61577681535736" target="_blank" rel="noopener">
+    Visit Facebook
+  </a>
+
+  <small>&copy; JoViCo</small>
+</body>
+</html>
